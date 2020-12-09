@@ -11,6 +11,7 @@ package Parcial2;
  */
 public class AsociacionVecinos {
     
+    
     private Vecino primero;
     
     public void AsociacionVecinos(){
