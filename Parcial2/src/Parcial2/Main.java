@@ -17,14 +17,11 @@ public class Main {
     
     public static void main(String[] args) {
         
-        AsociacionVecinos AsoVen = new AsociacionVecinos();
-        Interfaz interfaz = new Interfaz();
-        interfaz.show();
-        
+         AsociacionVecinos AsoVen = new AsociacionVecinos();
  //Leer archivo .CSV con los datos dados por el profesor.
  //Ubicación de archivo: ..DirectorioDeProyecto/test/
  
-    String SEPARADOR = ",";
+ String SEPARADOR = ",";
     
  BufferedReader bufferLectura = null;
  try {
@@ -57,15 +54,9 @@ public class Main {
    }
   }
  }
-         
 
-
-            
-
+        Interfaz interfaz = new Interfaz();
+        interfaz.show();
     }
 
 }
-
-    
-    
-
